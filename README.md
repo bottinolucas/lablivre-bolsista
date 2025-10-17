@@ -1,6 +1,13 @@
 # lablivre-bolsista
 Este repositório é dedicado à resolução do teste técnico para a vaga de bolsista em Engenharia/Análise de Dados no LabLivre.
 
+# Executando o projeto
+
+1.  Crie um ambiente virtual Python: `python -m venv venv`
+2.  Inicie o ambiente virtual: `source venv/bin/activate`
+3.  Execute o arquivo `etl.ipynb`
+
+
 # Documentando a solução para o problema proposto
 
 Para a solução do desafio técnico, pensei em modularizar algumas funções para fazer o processo de ETL (Extract, Transform, Load). Entre a etapa de Extração de dados brutos e Transformação, a análise de dados foi realizada.
@@ -90,7 +97,9 @@ Após a etapa de transformação, ao verificarmos novamente os dados com a funç
 
 Na visualização de dados, podemos identificar algumas informações bem interessantes:
 
--   A fonte de recurso de todos os projetos é o Governo Federal 
--   Quanto maior o investimento, maior a chance de sucesso
--   As obras CADASTRADAS são a maior quantidade dentro do dataset
--   
+-   A fonte de recurso de todos os projetos é o Governo Federal.
+-   Quanto maior o investimento, maior a chance do projeto ser cadastrado.
+-   As obras CADASTRADAS representam a maior quantidade dentro do dataset.
+-   O Fundo Nacional de Desenvolvimento da Educação é o executor com mais projetos.
+-   A natureza com mais projetos é Obra.
+-   O Departamento Nacional de Infraestrutura de Transportes é o que possui a maior previsão de investimento por executor.
