@@ -5,7 +5,18 @@ Este repositório é dedicado à resolução do teste técnico para a vaga de bo
 
 1.  Crie um ambiente virtual Python: `python -m venv venv`
 2.  Inicie o ambiente virtual: `source venv/bin/activate`
-3.  Execute o arquivo `etl.ipynb`
+3.  Suba o container: `docker-compose up --build -d`
+4.  Execute o arquivo `etl.ipynb`
+5.  Acesse o pgAdmin em `http://localhost:5051/browser/` com login `admin@admin.com` e senha `admin`
+6.  Para ter acesso ao banco de dados pelo pgAdmin, insira os dados:
+    -  Na aba General:
+      -  Name: lablivre
+    -  Na aba Connection:
+      -  Host name/address: postgres
+      -  Port: 5432
+      -  Maintenance database: lablivre
+      -  Username: admin
+      -  Password: admin  
 
 
 # Documentando a solução para o problema proposto
